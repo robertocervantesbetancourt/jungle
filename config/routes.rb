@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'about/index'
   get 'auth/admin'
   get 'welcome/index'
   get 'welcome/show'

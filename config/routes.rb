@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  get 'auth/admin'
+  get 'welcome/index'
+  get 'welcome/show'
   root to: 'products#index'
 
   resources :products, only: [:index, :show]
